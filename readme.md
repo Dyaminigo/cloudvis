@@ -1,16 +1,16 @@
 sea english text below
 # cloudvis
 простой консольный клиент для сервиса CloudVision (https://visionbot.ru).
-использование: cloudvis опции файл
-файл - имя файла изображения в формате png или jpg.
+использование: `cloudvis опции файл`
+`файл` - имя файла изображения в формате png или jpg.
 поддерживаемые опции:
--l language
-указывает, какой язык использовать, имя языка задаётся в виде двухбуквенного кода, например ru или en. поумолчанию en.
+`-l language`
+указывает, какой язык использовать, имя языка задаётся в виде двухбуквенного кода, например `ru` или `en`. поумолчанию `en`.
 список поддерживаемых языков см. на сайте сервиса.
--stdin
+`-stdin`
 читать изображение со stdin вместо файла.
--t type
-указывает тип данных для распознавания. может быть text, image или all. поумолчанию all.
+`-t type`
+указывает тип данных для распознавания. может быть `text`, `image` или `all`. поумолчанию `all`.
 готовые исполняемые файлы для windows вы можете найти в разделе releasies репозитория.
 ## сборка
 требования:
@@ -19,7 +19,7 @@ sea english text below
 дополнительные пакеты не требуются
 
 затем
-go get github.com/alekssamos/cloudvis
+`go get github.com/alekssamos/cloudvis`
 
 процесс распознавания осуществляется в облаке при использовании [этого](https://visionbot.ru) сервиса.
 это приложение не осуществляет какую-либо обработку загружаемых изображений, поэтому обо всех ошибках, связанных с некорректным распознаванием, следует сообщать напрямую [разработчику](mailto:aleks-samos@yandex.ru) сервиса.
@@ -30,15 +30,15 @@ https://visionbot.ru/apiv2
 
 ## english
 simple console client for CloudVision service (https://visionbot.ru).
-Usage: cloudvis opts file 
- file is a image file name. png and jpg are officially supported. 
+Usage: `cloudvis opts file` 
+ `file` is a image file name. png and jpg are officially supported. 
  Opts can be one of:
-  -l language
-    	set language name to use. language is formed as two letter code, like ru or en, default is en. (default "en")
-  -stdin
+  `-l language`
+    	set language name to use. language is formed as two letter code, like `ru` or `en`, default is `en`. (default "en")
+  `-stdin`
     	get image data from stdin, filename will be ignored
-  -t type
-    	data type to recognize. can be 'text', 'image' or 'all'. (default "all")
+  `-t` type
+    	data type to recognize. can be `'text'`, `'image'` or `'all'`. (default "all")
 precompiled binaries for windows can be found in releases section
 ## build
 requirements:
