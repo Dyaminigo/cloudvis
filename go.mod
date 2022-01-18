@@ -1,4 +1,4 @@
-module github.com/dyaminigo/cloudvis
+module github.com/alekssamos/cloudvis
 
 go 1.17
 

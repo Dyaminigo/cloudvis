@@ -22,7 +22,7 @@
 Сборка тестировалась на Go 1.17.6.
 
 Далее выполните такие команды:  
-`git clone https://github.com/dyaminigo/cloudvis.git`  
+`git clone https://github.com/alekssamos/cloudvis.git`  
 `cd cloudvis`  
 `go build cloudvis.go`  
 
@@ -55,7 +55,7 @@ Requirements:
 Tested on Go 1.17.6.
 
 Next, run the following commands:  
-`git clone https://github.com/dyaminigo/cloudvis.git`  
+`git clone https://github.com/alekssamos/cloudvis.git`  
 `cd cloudvis`  
 `go build cloudvis.go`  
 
